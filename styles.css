@@ -1,7 +1,7 @@
 html {
   font-family: monospace;
   background: fixed url(https://images.unsplash.com/photo-1507908708918-778587c9e563?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c103c10901350e8778c41dfc521eff55&auto=format&fit=crop&w=934&q=80);
-  background-size: cover
+  background-size: cover;
 }
 
 header {
@@ -61,7 +61,7 @@ ul li a {
   font-size: 2em;
 }
 
-a,p {
+a, p {
   box-sizing: border-box;
   color: white;
   text-decoration: none;
@@ -71,7 +71,7 @@ a:hover {
   text-decoration: underline;
 }
 
-main p, img+li{
+main p, img+li {
   background: rgba(100, 100, 100, .5);
   border-radius: 10px;
   color: rgb(230, 230, 230)
@@ -79,7 +79,7 @@ main p, img+li{
 
 li h3 {
   display: inline-block;
-  width:100%;
+  width: 100%;
   font-size: 2rem;
   margin: .25em 0;
 }
@@ -87,27 +87,32 @@ li h3 {
 ul {
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-top :0rem;
-  padding-bottom :1rem;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
 }
 
 li {
   list-style-type: none;
-}li p a{
+}
+
+li p a {
   text-decoration: underline;
   font-size: 1.5rem;
-  color:blue;
+  color: blue;
 }
-h2{
+
+h2 {
   font-size: 3rem;
 }
-nav ul li ul li{
-  padding:0;
-  margin:0;
+
+nav ul li ul li {
+  padding: 0;
+  margin: 0;
 }
-nav ul li ul li a{
+
+nav ul li ul li a {
   display: block;
-  font-size:1rem;
+  font-size: 1rem;
   margin-top: 1em;
   text-align: center;
 }
